@@ -1,3 +1,12 @@
+## 欢迎
+此仓库存放的是百度前端技术学院的任务作业
+## 下载
+
+https://yanxueji.github.io/baidu/xiaowei01      是小薇课程，01任务的代码
+https://yanxueji.github.io/baidu/xiaowei01.html 是小薇课程，01任务的展示
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yanxueji/baidu/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
