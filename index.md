@@ -5,9 +5,6 @@
 [https://yanxueji.github.io/baidu/xiaowei01](https://yanxueji.github.io/baidu/xiaowei01)        是小薇课程，01任务的代码
 
 
-```[https://yanxueji.github.io/baidu/xiaowei01.html](https://yanxueji.github.io/baidu/xiaowei01.html) 是小薇课程，01任务的展示
-
-
 
 ## Welcome to GitHub Pages
 
