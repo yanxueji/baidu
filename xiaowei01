@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<title>小薇01</title>
+</head>
+<body>
+	<main>
+	<h1>网站一级标题</h1>
+	<ul>
+		<li><a href="#a1">第一篇文章</a></li>
+		<li><a href="#a2">另一篇篇文章</a></li>
+		<li><a href="#a3">最后一篇文章</a></li>
+		<li><a href="#aside">侧栏</a></li>
+	</ul>
+	
+	<article > <a name="a1"></a>
+		<h1>文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<aside>文章作者 文章发表时间</aside>
+		<p> 这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，<br/>
+			换行了
+			这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，换行了<br/>
+			这是一段很长很长的段落，这是一段很长很长的段落，<a href="http://ife.baidu.com">这里有链接http://ife.baidu.com</a>这是一段很长很长的段落，
+				<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落.
+		</p>
+		<img alt="pic1" src="../images/logo.png">
+		<p>	这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，换行了<br/>
+			这是一段很长很长的段落，这是一段很长很长的段落，<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，
+				<a href="http://ife.baidu.com" target="_blank">这里有新窗口打开链接http://ife.baidu.com</a>
+				这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，
+				这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落.
+		</p>
+	</article>
+	
+	<article> <a name="a2"></a>
+		<h1>另一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<aside>文章作者 文章发表时间</aside>
+		<p>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，<br/>
+		换行了
+		这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，换行了<br/>
+		这是一段很长很长的段落，这是一段很长很长的段落，<a href="http://ife.baidu.com">这里有链接http://ife.baidu.com</a>这是一段很长很长的段落，
+			<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落.
+		</p>
+		<img alt="pic1" src="../images/logo.png">
+		<ul>
+			<li>一</li>
+			<li>二</a></li>
+			<li>三</a></li>
+			<li>四</li>
+		</ul>
+		<table border="1">
+			<caption>我的标题</caption>
+				  <thead>
+				    <tr>
+				      <th>Month</th>
+				      <th>Savings</th>
+				    </tr>
+				  </thead>
+				  
+				  <tbody>
+				    <tr>
+				      <td>January</td>
+				      <td><a href="#">查看</a></td>
+				    </tr>
+				    <tr>
+				      <td>February</td>
+				      <td><a href="#">删除</a></td>
+				    </tr>
+				  </tbody>
+				  
+				  <tfoot>
+				    <tr>
+				      <td colspan="2">Sum</td>
+				    </tr>
+				  </tfoot>
+		</table>
+		
+		
+		<h2>图片</h2>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img alt="pic1" src="../images/logo.png" id="pic1">
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img alt="pic1" src="../images/logo.png" id="pic1">
+			</figure>
+	</article>
+	
+	<article> <a name="a3"></a>
+		<h1>最后一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<aside>文章作者 文章发表时间</aside>
+		<ol>
+			<li>一</li>
+			<li>二</a></li>
+			<li>三</a></li>
+			<li>四</li>
+		</ol>
+		<figure>
+				<figcaption>下面表格宽1</figcaption>
+				<table border="1">
+				  <thead>
+				    <tr>
+				      <th>Month</th>
+				      <th>Savings</th>
+				    </tr>
+				  </thead>
+				  
+				  <tbody>
+				    <tr>
+				      <td>January</td>
+				      <td><a href="#">查看</a></td>
+				    </tr>
+				    <tr>
+				      <td>February</td>
+				      <td><a href="#">查看</a></td>
+				    </tr>
+				  </tbody>
+				  
+				  <tfoot>
+				    <tr>
+				      <td colspan="2">Sum</td>
+				    </tr>
+				  </tfoot>
+				</table>
+		</figure>
+	</article>
+	
+	<aside><a name="aside"></a>
+		<h1>侧栏标题</h1>
+		<section>
+			<h2>侧栏 注册窗口标题</h2>
+			<!--用于控制表单提交。如果函数返回的是false就不能提交。ps这个时候最后一句type="submit"还要用上哦  -->
+			<!--<form onsubmit="return doValidation();">  -->
+			<form>
+				<label for="address">邮箱：</label><input type="text" placeholder="文本输入框" id="address">
+				<br/><label>请按照邮箱地址格式</label>
+				<label for="password1">密码：</label><input type="text" placeholder="文本输入框" id="password1">
+					<label for="password2">请再次输入密码：</label><input type="text" placeholder="文本输入框" id="password2">
+				<br/><label>密码是6-16位英文或数字</label>
+				性别：<input type="radio" name="sex" id="nan" checked><label for="nan">男</label> 
+					<input type="radio" name="sex" id="nv"><label for="nv">女</label>
+				城市：<select>
+					  <option>北京</option>
+					  <option>Saab</option>
+					  <option>Mercedes</option>
+					  <option>Audi</option>
+					</select>
+				爱好：<input type="checkbox" id="hobby">运动 
+					<input type="checkbox" id="hobby" >科学
+				个人描述：<textarea rows="3" cols="20">多行输入框，请输入您的个人描述。</textarea>
+				<!--使用input提交，难以控制样式  -->
+				<button type="submit" >确认提交</button>	<!--确认value是submit  -->	
+			</form>
+		</section>
+	</aside>
+	
+	
+	
+	</main>
+	
+	<footer><p>版权所有©</p></footer>
+</body>
+</html>
