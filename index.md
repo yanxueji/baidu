@@ -2,7 +2,7 @@
 此仓库存放的是百度前端技术学院的任务作业
 ## 下载
 
-[https://yanxueji.github.io/baidu/xiaowei01](https://yanxueji.github.io/baidu/xiaowei01）      是小薇课程，01任务的代码
+[https://yanxueji.github.io/baidu/xiaowei01](https://yanxueji.github.io/baidu/xiaowei01)       是小薇课程，01任务的代码
 [https://yanxueji.github.io/baidu/xiaowei01.html](https://yanxueji.github.io/baidu/xiaowei01.html) 是小薇课程，01任务的展示
 
 
