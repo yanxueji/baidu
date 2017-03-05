@@ -103,8 +103,8 @@
 		<aside>文章作者 文章发表时间</aside>
 		<ol>
 			<li>一</li>
-			<li>二</a></li>
-			<li>三</a></li>
+			<li>二</li>
+			<li>三</li>
 			<li>四</li>
 		</ol>
 		<figure>
@@ -157,9 +157,9 @@
 					  <option>Mercedes</option>
 					  <option>Audi</option>
 					</select>
-				爱好：<input type="checkbox" id="hobby">运动 
-					<input type="checkbox" id="hobby" >科学
-				个人描述：<textarea rows="3" cols="20">多行输入框，请输入您的个人描述。</textarea>
+				爱好：<input type="checkbox" id="sport"><label for="sport">运动</label>  
+					<input type="checkbox" id="sience" ><label for="sience">科学</label> 
+				个人描述：<textarea rows="3" cols="20" placeholder="多行输入框，请输入您的个人描述。" wrap="hard"></textarea>
 				<!--使用input提交，难以控制样式  -->
 				<button type="submit" >确认提交</button>	<!--确认value是submit  -->	
 			</form>
