@@ -1,21 +1,24 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 需要doctype来规范浏览器的行为 -->
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+<!-- HTML5 不基于 SGML，所以不需要引用 DTD。 -->
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
 <title>小薇01</title>
 </head>
 <body>
-	<main>
-	<h1>网站一级标题</h1>
-	<ul>
-		<li><a href="#a1">第一篇文章</a></li>
-		<li><a href="#a2">另一篇篇文章</a></li>
-		<li><a href="#a3">最后一篇文章</a></li>
-		<li><a href="#aside">侧栏</a></li>
-	</ul>
+	<header><!-- HTML5的标签 -->
+		<h1>网站一级标题</h1>
+		<ul>
+			<li><a href="#a1">第一篇文章</a></li>
+			<li><a href="#a2">另一篇篇文章</a></li>
+			<li><a href="#a3">最后一篇文章</a></li>
+			<li><a href="#aside">侧栏</a></li>
+		</ul>
+	</header>
 	
+	<main>
 	<article > <a name="a1"></a>
 		<h1>文章一级标题</h1>
 		<h2>文章二级标题</h2>
@@ -26,7 +29,9 @@
 			这是一段很长很长的段落，这是一段很长很长的段落，<a href="http://ife.baidu.com">这里有链接http://ife.baidu.com</a>这是一段很长很长的段落，
 				<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落.
 		</p>
-		<img alt="pic1" src="../images/logo.png">
+		<!-- <img alt="pic1" src="../images/logo.png">
+		 -->
+		<img alt="pic1" src="https://ss1.baidu.com/73N1bjeh1BF3odCf/it/u=4291272929,1486311474&fm=202&gp=0.jpg&w_h=121_75&cs=4291272929,1486311474&ow_h=121_75&src=301">
 		<p>	这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，换行了<br/>
 			这是一段很长很长的段落，这是一段很长很长的段落，<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，
 				<a href="http://ife.baidu.com" target="_blank">这里有新窗口打开链接http://ife.baidu.com</a>
@@ -38,6 +43,7 @@
 	<article> <a name="a2"></a>
 		<h1>另一篇文章一级标题</h1>
 		<h2>文章二级标题</h2>
+		<!--  -->
 		<aside>文章作者 文章发表时间</aside>
 		<p>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，<br/>
 		换行了
@@ -45,7 +51,7 @@
 		这是一段很长很长的段落，这是一段很长很长的段落，<a href="http://ife.baidu.com">这里有链接http://ife.baidu.com</a>这是一段很长很长的段落，
 			<strong>这里粗体字</strong>这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落，这是一段很长很长的段落.
 		</p>
-		<img alt="pic1" src="../images/logo.png">
+		<img alt="pic1" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="300">
 		<ul>
 			<li>一</li>
 			<li>二</a></li>
@@ -83,11 +89,11 @@
 		<h2>图片</h2>
 			<figure>
 				<figcaption>好看的图片</figcaption>
-				<img alt="pic1" src="../images/logo.png" id="pic1">
+				<img alt="pic1" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="300" id="pic1">
 			</figure>
 			<figure>
 				<figcaption>好看的图片</figcaption>
-				<img alt="pic1" src="../images/logo.png" id="pic1">
+				<img alt="pic1" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="300" id="pic1">
 			</figure>
 	</article>
 	
@@ -164,6 +170,6 @@
 	
 	</main>
 	
-	<footer><p>版权所有©</p></footer>
+	<footer><p>版权所有&copy;</p></footer>
 </body>
 </html>
