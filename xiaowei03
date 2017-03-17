@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>xiaowei03</title>
+
+<style type="text/css">
+.main{
+overflow:auto;zoom:1;height:auto;border:1px solid #999;
+padding:20px;background-color:#eee;}
+.left{float:left;width:220px;height:auto;
+}
+
+.right{float:right;width:120px;height:auto;padding:10px 0;
+}
+.center{margin:0 140px 0 240px;height:auto;text-indent:2em;padding:10px;
+}
+
+.left, .right,.center{
+border:1px solid #999;
+background-color:#fff;}
+
+.left-main{
+padding:20px;overflow:auto;zoom:1;height:auto;}
+
+.lefLogo{
+float: left;
+}
+
+.left-introduce-top{
+margin-left:100px; display: block;}
+
+.right img{display: block;margin: 10px 20px ;}
+
+</style>
+
+</head>
+<body>
+
+<div class="main">
+	<div class="left">
+		<div class="left-main" >
+			<img class="lefLogo" alt="teamLogo" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="80px" height="80px">
+			<strong class="left-introduce-top">团队名称</strong>
+		</div>
+	</div>
+	
+	<div class="center">
+		<p >写出介绍文字</p>
+		<p >团队介绍<br/>成员介绍</p>
+	</div>
+	<div class="right">
+		<img alt="mineLogo" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="80px" height="80px">
+		<img alt="mineLogo" src="http://img.tuku.cn/file_big/201502/0e93d8ab02314174a933b5f00438d357.jpg" width="80px" height="80px">
+	</div>
+</div>
+
+</body>
+</html>
